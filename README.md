@@ -72,13 +72,9 @@ All files needed for project: https://drive.google.com/drive/folders/1uWpd6rXrmi
 	-create a root password (eg. Password1)
 
 <li>Open ISS as admin</li>
-
 <li>Register PHP from within IIS</li>
-
 <li>Open the PHP file from earlier (C:\PHP)</li>
-
 <li>Then select php-cgi and click “open”</li>
-
 <li>Restart IIS (Open IIS, then on the right of the window there is the option to restart)</li>
 
 </p>
@@ -88,9 +84,9 @@ All files needed for project: https://drive.google.com/drive/folders/1uWpd6rXrmi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<li>osTicket v1.15.8: https://drive.google.com/file/d/1eDguKryHPJIDWPrzZyRcgWQDxqPQxs-1/view?usp=drive_link (couldn’t find a download link from osTicket)
--Extract and copy “upload” folder to c:\inetpub\wwwroot
--Within c:\inetpub\wwwroot, Rename “upload” folder to “osTicket”</li>
+<li>osTicket v1.15.8: https://drive.google.com/file/d/1eDguKryHPJIDWPrzZyRcgWQDxqPQxs-1/view?usp=drive_link (couldn’t find a download link from osTicket)</li>
+<li>Extract and copy “upload” folder to c:\inetpub\wwwroot</li>
+<li>Within c:\inetpub\wwwroot, Rename “upload” folder to “osTicket”</li>
 </p>
 <br />
 
@@ -98,16 +94,16 @@ All files needed for project: https://drive.google.com/drive/folders/1uWpd6rXrmi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Restart ISS
+<li>Restart ISS
 	-In ISS go to sites>Default>osTicket
 	-On the right click “Browse *.80”
 	-This opens osTicket in the browser and it will show that we need to enable some 
-extensions
+extensions</li>
 
--In IIS go to: sites>Default>osTicket
--Double-click PHP Manager
--Click “Enable or disable an extension”
-Enable: php_imap.dll
+<li>In IIS go to: sites>Default>osTicket</li>
+<li>Double-click PHP Manager</li>
+<li>Click “Enable or disable an extension”</li>
+<li>Enable: php_imap.dll</li>
 Enable: php_intl.dll
 Enable: php_opcache.dll
 -Refresh the osTicket site in your browse and all the extensions that previously had an “X” should have a check mark now
@@ -118,13 +114,13 @@ Enable: php_opcache.dll
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--Now open your file browser and navigate to: (C:)>inetpub>wwwroot>osTicket>include
--In this folder find the file “ost-sampleconfig.php”
--Rename it to “ost-config.php”
+- Now open your file browser and navigate to: (C:)>inetpub>wwwroot>osTicket>include
+- In this folder find the file “ost-sampleconfig.php”
+- Rename it to “ost-config.php”
 
--On that same file right click and go to properties>security>advanced
--Disable inheritance>remove all
--New permissions>Everyone>All (this is so that the osTicket installer has   permission to manipulate this file) 
+- On that same file right click and go to properties>security>advanced
+- Disable inheritance>remove all
+- New permissions>Everyone>All (this is so that the osTicket installer has   permission to manipulate this file) 
 
 -Back on the browser click “continue” 
 -Name Helpdesk (eg. Griffin Helpdesk)
