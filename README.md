@@ -31,13 +31,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install/Enable IIS in windows (files come with windows you just need to find and install)
-	
--In control panel: Programs>Turn windows feature on or off>select Internet Information services>world wide web services>application development features>check cg. Then under common http services check all the boxes
+<dl>
+<dt>Install/Enable IIS in windows (files come with windows you just need to find and install)</dt>
+	<dd>
+		<li>In control panel: Programs>Turn windows feature on or off>select Internet Information services>world wide web services>application development features>check cg. Then under common http services check all the boxes</li>
+		<li>click okay and it will install</li>
+	</dd>
 
--click okay and it will install
-
--Then you can test it to make sure it installed properly by opening a web browser and type 127.0.0.1 (if it doesn’t work then uncheck “Internet Information services” and click ok to uninstall then redo the previous steps)
+<li>Then you can test it to make sure it installed properly by opening a web browser and type 127.0.0.1 (if it doesn’t work then uncheck “Internet Information services” and click ok to uninstall then redo the previous steps)</li>
+</dl>
 </p>
 <br />
 
