@@ -71,15 +71,15 @@ All files needed for project: https://drive.google.com/drive/folders/1uWpd6rXrmi
 	-Standard Configuration
 	-create a root password (eg. Password1)
 
-<li>-Open ISS as admin</li>
+<li>Open ISS as admin</li>
 
--Register PHP from within IIS
+<li>Register PHP from within IIS</li>
 
--Open the PHP file from earlier (C:\PHP)
+<li>Open the PHP file from earlier (C:\PHP)</li>
 
--Then select php-cgi and click “open”
+<li>Then select php-cgi and click “open”</li>
 
--Restart IIS (Open IIS, then on the right of the window there is the option to restart)
+<li>Restart IIS (Open IIS, then on the right of the window there is the option to restart)</li>
 
 </p>
 <br />
@@ -88,9 +88,9 @@ All files needed for project: https://drive.google.com/drive/folders/1uWpd6rXrmi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
--osTicket v1.15.8: https://drive.google.com/file/d/1eDguKryHPJIDWPrzZyRcgWQDxqPQxs-1/view?usp=drive_link (couldn’t find a download link from osTicket)
+<li>osTicket v1.15.8: https://drive.google.com/file/d/1eDguKryHPJIDWPrzZyRcgWQDxqPQxs-1/view?usp=drive_link (couldn’t find a download link from osTicket)
 -Extract and copy “upload” folder to c:\inetpub\wwwroot
--Within c:\inetpub\wwwroot, Rename “upload” folder to “osTicket”
+-Within c:\inetpub\wwwroot, Rename “upload” folder to “osTicket”</li>
 </p>
 <br />
 
