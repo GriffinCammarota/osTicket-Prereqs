@@ -72,10 +72,15 @@ All files needed for project: https://drive.google.com/drive/folders/1uWpd6rXrmi
 	-create a root password (eg. Password1)
 
 -Open ISS as admin
+
 -Register PHP from within IIS
+
 -Open the PHP file from earlier (C:\PHP)
+
 -Then select php-cgi and click “open”
+
 -Restart IIS (Open IIS, then on the right of the window there is the option to restart)
+
 </p>
 <br />
 
