@@ -71,7 +71,7 @@ All files needed for project: https://drive.google.com/drive/folders/1uWpd6rXrmi
 	-Standard Configuration
 	-create a root password (eg. Password1)
 
--Open ISS as admin
+<li>-Open ISS as admin</li>
 
 -Register PHP from within IIS
 
