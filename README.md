@@ -94,12 +94,13 @@ All files needed for project: https://drive.google.com/drive/folders/1uWpd6rXrmi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<li>Restart ISS
-	-In ISS go to sites>Default>osTicket
-	-On the right click “Browse *.80”
-	-This opens osTicket in the browser and it will show that we need to enable some 
-extensions</li>
-
+<dl>
+	<dt>Restart ISS</dt>
+	<dd>
+		<li>In ISS go to sites>Default>osTicket</li>
+		<li>On the right click “Browse *.80”</li>
+		<li>This opens osTicket in the browser and it will show that we need to enable some extensions</li>
+	</dd>
 <li>In IIS go to: sites>Default>osTicket</li>
 <li>Double-click PHP Manager</li>
 <li>Click “Enable or disable an extension”</li>
