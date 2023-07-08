@@ -28,9 +28,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <dl>
 <dt>Install/Enable IIS in windows (files come with windows you just need to find and install)</dt>
 	<dd>
@@ -43,9 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 <dl>
 <dt>For the next few just download from the project link or the original source and run the install:</dt>
@@ -64,9 +59,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 <dl>
 <dt>MySQL: https://downloads.mysql.com/archives/community/</dt>
@@ -85,9 +78,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 <li>osTicket v1.15.8: https://drive.google.com/file/d/1eDguKryHPJIDWPrzZyRcgWQDxqPQxs-1/view?usp=drive_link (couldn’t find a download link from osTicket)</li>
 <li>Extract and copy “upload” folder to c:\inetpub\wwwroot</li>
@@ -95,9 +86,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 <dl>
 <dt>Restart ISS</dt>
@@ -116,9 +105,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 <li>Now open your file browser and navigate to: (C:)>inetpub>wwwroot>osTicket>include</li>
 <li>In this folder find the file “ost-sampleconfig.php”</li>
@@ -133,9 +120,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 <dl>
 <dt>Heidi SQL: https://www.heidisql.com/download.php</dt>
